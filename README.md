@@ -86,7 +86,7 @@ litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端 
     * [MySQL](https://dev.mysql.com/downloads/mysql/)
     * [JDK1.8或以上](http://www.oracle.com/technetwork/java/javase/overview/index.html)
     * [Maven](https://maven.apache.org/download.cgi)
-    * [Nodejs](https://nodejs.org/en/download/)
+    * [Nodejs](https://nodejs.org/en/download/) 推荐：v16.20.0 （nvm安装）
     * [微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)
     
 2. 数据库依次导入litemall-db/sql下的数据库文件
