@@ -30,7 +30,7 @@ module.exports = {
   productionSourceMap: false,
   devServer: {
     proxy: {
-      '/admin': {
+      '/api/admin': {
         target: 'http://localhost:8080'
       },
     },
