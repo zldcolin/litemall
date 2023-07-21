@@ -2,9 +2,11 @@
   <div class="login-container">
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form" auto-complete="on" label-position="left">
       <div class="title-container">
-        <h3 class="title">管理员登录</h3>
+        <h3 class="title">Under Construction</h3>
+        <h3 class="title">Owner Contact: zldcolin@163.com</h3>
       </div>
-      <el-form-item prop="username">
+
+      <!-- <el-form-item prop="username">
         <span class="svg-container">
           <svg-icon icon-class="user" />
         </span>
@@ -16,7 +18,7 @@
           <svg-icon icon-class="password" />
         </span>
         <el-input v-model="loginForm.password" :type="passwordType" name="password" auto-complete="on" tabindex="2" show-password placeholder="管理员密码" @keyup.enter.native="handleLogin" />
-      </el-form-item>
+      </el-form-item> -->
 
       <!-- <el-form-item prop="code">
         <span class="svg-container">
@@ -28,9 +30,9 @@
         </div>
       </el-form-item> -->
 
-      <el-button :loading="loading" type="primary" style="width:100%;margin-bottom:30px;" @click.native.prevent="handleLogin">登录</el-button>
+      <!-- <el-button :loading="loading" type="primary" style="width:100%;margin-bottom:30px;" @click.native.prevent="handleLogin">登录</el-button> -->
 
-      <div style="position:relative">
+      <!-- <div style="position:relative">
         <div class="tips">
           <span> 超级管理员用户名: admin123</span>
           <span> 超级管理员用户名：admin123</span>
@@ -43,11 +45,14 @@
           <span> 推广管理员用户名: promotion123</span>
           <span> 推广管理员用户名：promotion123</span>
         </div>
-      </div>
+      </div> -->
     </el-form>
 
+    <div class="title-container">
+    </div>
+
     <div class="copyright">
-      Copyright © 2022 xxx.com 版权所有 <a href="https://github.com/linlinjava/litemall">沪ICP备xxx号</a>
+      <a href="https://beian.miit.gov.cn/" target="_blank">辽ICP备2023006459号</a>
     </div>
   </div>
 </template>
